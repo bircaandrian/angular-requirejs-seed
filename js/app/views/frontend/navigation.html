@@ -1,0 +1,5 @@
+<ul class="nav navbar-nav">
+	<li ng-repeat="item in menu" ng-class="{active: state.is('{{item.state}}')}">
+		<a ui-sref="{{item.state}}">{{item.label}}</a>
+	</li>
+</ul>
