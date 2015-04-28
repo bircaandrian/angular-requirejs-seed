@@ -15,6 +15,7 @@ define(['angular','uiRouter','app/module'], function(angular){
 			})
 			.state('frontend.index', {
 				url: '/frontend',
+				abstract: true,
 				views : {
 					'navigation': {
 						templateUrl: 'js/app/views/frontend/navigation.html',
